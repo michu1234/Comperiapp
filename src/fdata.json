@@ -1,0 +1,50 @@
+[
+  {
+    "promocja": false,
+    "nazwa": "Cashalot",
+    "rating": "3",
+    "min_kwota": "1",
+    "max_kwota": "500",
+    "min_okres": "1",
+    "max_okres": "30",
+    "bik": false,
+    "darmowa": false,
+    "wypłata": "przelew"
+  },
+  {
+    "promocja": false,
+    "nazwa": "Maxi Kasa",
+    "rating": "4",
+    "min_kwota": "100",
+    "max_kwota": "600",
+    "min_okres": "30",
+    "max_okres": "65",
+    "bik": true,
+    "darmowa":  false,
+    "wypłata": "przelew"
+  },
+  {
+    "promocja": false,
+    "nazwa": "SMS Cash",
+    "rating": "5",
+    "min_kwota": "1000",
+    "max_kwota": "10000",
+    "min_okres": "1",
+    "max_okres": "65",
+    "bik": true,
+    "darmowa": true,
+    "wypłata": "przelew"
+  },
+  {
+    "promocja": true,
+    "nazwa": "Max Gotówka",
+    "rating": "1",
+    "min_kwota": "10",
+    "max_kwota": "100",
+    "min_okres": "1",
+    "max_okres": "30",
+    "bik": false,
+    "darmowa": true,
+    "wypłata": "przelew"
+  }
+]
