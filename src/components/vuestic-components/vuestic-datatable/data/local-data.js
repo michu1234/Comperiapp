@@ -12,7 +12,7 @@ export default {
   'data': [
     {
       'id': 1,
-      'name': 'Noelia O\'Kon',
+      'name': 'Super Kasa <br/> test testowy',
       'nickname': 'asperiores',
       'email': 'otho.smitham@example.com',
       'birthdate': '1978-06-28 00:00:00',

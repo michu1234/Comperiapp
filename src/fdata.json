@@ -8,7 +8,7 @@
     "min_okres": "1",
     "max_okres": "30",
     "bik": false,
-    "darmowa": false,
+    "darmowa": true,
     "wypłata": "przelew"
   },
   {

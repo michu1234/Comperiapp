@@ -6,7 +6,7 @@
           <vuestic-chart v-bind:data="donutChartData" type="donut"></vuestic-chart>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-12">
         <vuestic-data-table :apiMode="apiMode"
                     :data="tableData"
                     :tableFields="tableFields"

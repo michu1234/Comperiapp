@@ -2,7 +2,7 @@
   <nav class="navbar app-navbar navbar-toggleable-md">
     <div class="navbar-brand-container d-flex align-items-center justify-content-start">
       <a class="navbar-brand" href="#/dashboard">
-        <i class="i-vuestic"></i>
+        <i class="i-vuestic-vue"></i><i class="i-vuestic-free"></i>
       </a>
     </div>
 
@@ -14,79 +14,8 @@
       </div>
 
       <div class="offset-lg-8"></div>
-      <div class="col nav-item dropdown navbar-dropdown d-flex align-items-center justify-content-center" v-dropdown>
-        <a class="nav-link dropdown-toggle d-flex align-items-center justify-content" href="#" @click.prevent="closeMenu">
-          <span class="i-nav-messages notify"></span>
-        </a>
-        <div class="dropdown-menu">
-          <div class="dropdown-menu-content">
-            <a class="dropdown-item" href="#">
-              <span class="ellipsis">{{ $t('messages.new', {name: "Oleg M"})}}</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <span class="ellipsis">{{ $t('messages.new', {name: "Andrei H"})}}</span>
-            </a>
-            <div class="dropdown-item plain-link-item">
-              <a class="plain-link" href="#">{{'messages.all' | translate}}</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col nav-item dropdown navbar-dropdown d-flex align-items-center justify-content-center" v-dropdown>
-        <a class="nav-link dropdown-toggle d-flex align-items-center justify-content" href="#" @click.prevent="closeMenu">
-          <span class="i-nav-notification notify"></span>
-        </a>
-        <div class="dropdown-menu">
-          <div class="dropdown-menu-content">
-            <a class="dropdown-item" href="#">
-              <span class="ellipsis">{{$t('notifications.sentMessage', {name: 'Vasily S'})}}</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <span class="ellipsis">{{$t('notifications.uploadedZip', { name: "Oleg M", type: "typography component"})}}</span>
-            </a>
-            <a class="dropdown-item" href="#">
-              <span class="ellipsis">{{$t('notifications.startedTopic',{name: "Andrei H"}) }}</span>
-            </a>
-            <div class="dropdown-item plain-link-item">
-              <a class="plain-link" href="#">{{'notifications.all' | translate}}</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col nav-item dropdown navbar-dropdown d-flex align-items-center justify-content-center" v-dropdown>
-        <a class="nav-link dropdown-toggle d-flex align-items-center justify-content" href="#" @click.prevent="closeMenu">
-          <span class="avatar-container">
-            <img src="http://i.imgur.com/nfa5itq.png" />
-          </span>
-        </a>
-        <div class="dropdown-menu last">
-          <div class="dropdown-menu-content">
-            <div class="dropdown-item plain-link-item">
-              <a class="plain-link" href="#">{{'user.profile' | translate}}</a>
-            </div>
-            <div class="dropdown-item plain-link-item">
-              <a class="plain-link" href="#" @click.prevent="showLanguageModal">{{'user.language' | translate}}</a>
-            </div>
-            <div class="dropdown-item plain-link-item">
-              <a class="plain-link" href="#">{{'user.logout' | translate}}</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <vuestic-modal ref="languageModal"
-     v-bind:small="true" :okClass="'none'" :cancelClass="'none'">
-      <div slot="title">{{'user.language' | translate}}</div>
-      <div class="text-center">
-              <button class="btn btn-info" @click="setLanguage('en')">
-                {{'language.english' | translate}}
-              </button>
-              <hr>
-              <button class="btn btn-info" @click="setLanguage('es')">
-                {{'language.spanish' | translate}}
-              </button>
-      </div>
-    </vuestic-modal>
+     
+    </div> 
   </nav>
 </template>
 

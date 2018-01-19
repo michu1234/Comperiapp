@@ -7,12 +7,44 @@ export default {
     },
     {
       name: 'name',
-      title: 'user',
+      title: 'Firma',
       sortField: 'name'
     },
     {
       name: 'salary',
-      title: 'score'
+      title: 'Ocena'
+    },
+    {
+      name: 'salary',
+      title: 'Min kwota'
+    },
+    {
+      name: 'salary',
+      title: 'Max kwota'
+    },
+    {
+      name: 'salary',
+      title: 'Min okres'
+    },
+    {
+      name: 'salary',
+      title: 'Max okres'
+    },
+    {
+      name: 'salary',
+      title: 'Bik'
+    },
+    {
+      name: 'salary',
+      title: 'Darmowa'
+    },
+    {
+      name: 'salary',
+      title: 'Wypłata'
+    },
+    {
+      name: 'salary',
+      title: 'Adres strony'
     }
   ],
   sortFunctions: {
